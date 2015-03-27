@@ -1,0 +1,365 @@
+body {
+    background-color: black;
+    background-image: url("../pictures/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    font-family:"Helvetica";
+}
+.circle {
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    width: 13em;
+    height: 13em;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 0 0 12px #fff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0);
+    font-size: 1.5em;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: background-color .4s, color .4s, text-shadow .4s;
+    -moz-transition: background-color .4s, color .4s, text-shadow .4s;
+    transition: background-color .4s, color .4s, text-shadow .4s;
+}
+.circle:hover {
+    background-color:rgba(0, 0, 0, 0.7);
+    color:#fff;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+.circle:active {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 120px white;
+}
+.filter-btn {
+    padding-top: 1.2em;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    width: 13em;
+    height: 13em;
+    border-radius: 100%;
+    border: solid 8px #fff;
+}
+.filter-btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+li {
+    font-size: 16px;
+    color:white;
+    text-shadow: 0 0 30px white;
+}
+.collapse > .nav > li >a:hover {
+    color: #CC6600;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+
+#club {
+    background-image: url('../pictures/logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    color:transparent;
+    margin-left:45px;
+}
+
+#news {
+    background-image: url('../pictures/news.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    color:transparent;
+    margin-left:45px;
+}
+
+#floorball {
+    background-image: url('../pictures/floorball.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 3;
+    color:transparent;
+    margin-left:45px;
+}
+
+#pictures {
+    background-image: url('../pictures/photos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 4;
+    color:transparent;
+    margin-left:45px;
+}
+
+#prices {
+    background-image: url('../pictures/info.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+    color:transparent;
+    margin-left:45px;
+}
+
+#club:hover, #news:hover, #floorball:hover, #pictures:hover, #prices:hover {
+    color:white;
+    box-shadow: 0 0 90px white;
+}
+#club:active, #news:active, #floorball:active, #pictures:active, #prices:active {
+    box-shadow: 0 0 120px #fff;
+}
+.carousel {
+    margin-bottom: 60px;
+}
+.carousel .container {
+    position: relative;
+    z-index: 9;
+}
+.carousel-control {
+    height: 80px;
+    margin-top: 0;
+    font-size: 80px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+    border: 0;
+    z-index: 10;
+}
+.carousel .item {
+    height: 500px;
+}
+.carousel img {
+    position: relative;
+    top: 12px;
+    left: 0;
+    width: 45%;
+    border-radius: 30px;
+    box-shadow: 0 0 12px black;
+}
+.carousel img:hover {
+    box-shadow: 0 0 25px white;
+}
+.carousel-caption {
+    background-color: transparent;
+    color:white;
+    text-shadow: 0 0 3px black;
+    padding: 0 20px;
+    font-size: 2em;
+    margin:0 auto;
+    margin-top: 200px;
+    text-align:center;
+}
+.carousel-caption h1, .carousel-caption h3, .carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+@media (max-width: 979px) {
+    .carousel .item {
+        height: 1000px;
+    }
+    .carousel img {
+        width: auto;
+        height: 1000px;
+    }
+}
+@media (max-width: 767px) {
+    .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .carousel .container {
+    }
+    .carousel .item {
+        height: 300px;
+    }
+    .carousel img {
+        height: 300px;
+    }
+    .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    .carousel-caption .lead, .carousel-caption .btn {
+        font-size: 18px;
+    }
+}
+#bodyindex, #bodypictures, #bodyclub, #bodynews, #bodyfloorball, #bodycalendar, #bodyresults, #bodyinfos, #bodycontact {
+    overflow-x: hidden;
+}
+
+table {
+    color:black;
+    height: 400px;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 5px;
+}
+table > caption {
+    font-size: 20px;
+    text-align: center;
+}
+th {
+    text-align: center;
+}
+#tableresults {
+    vertical-align: center;
+    text-align: center;
+    position:relative;
+    margin: auto;
+    color:white;
+    background-color: rgba(34, 34, 34, 0.6);
+    box-shadow: 0 0 50px rgb(34, 34, 34);
+}
+iframe {
+    text-align:center;
+    vertical-align: center;
+    height: 500px;
+    width: 70%;
+    min-width: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    -moz-box-shadow: 4px 4px 14px #000;
+    -webkit-box-shadow: 4px 4px 14px #000;
+    box-shadow: 0 0 50px white;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    text-shadow: 0 0 100px black;
+    font-weight: bold;
+}
+h2 {
+    color:white;
+    text-shadow: 0 0 100px black;
+}
+
+h3 {
+    text-align: center;
+    color:white;
+    text-shadow: 0 0 100px black;
+}
+
+h4{
+    color:white;
+    text-shadow: 0 20 100px black;
+}
+
+#logo {
+    position: absolute;
+    left:70%;
+    width: 250px;
+    height: 166px;
+}
+
+#row_footer {
+    position:relative;
+    text-align: right;
+}
+#pnews {
+    color:white;
+}
+
+h4 > a:first-child {
+    visibility: hidden;
+}
+
+#asuite {
+    position: absolute;
+}
+
+#infos{
+    width: 800px;  
+}
+
+table.table.table-hover tr:hover td {
+    color: #000;
+}
+
+table.table.table-hover tr td{
+    font-size: 18px;
+}
+table.table.table-hover thead{
+    font-size: 20px;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    color:#CC6600;
+    text-decoration: none;
+}
+
+#infosB{
+    height: 150px;
+    background-color: rgba(34, 34, 34, 0.6);
+    color:white;
+    box-shadow: 0 0 50px rgb(34, 34, 34);
+}
+
+#infosB>caption{
+    color:white;
+    font-weight: bold;
+    text-shadow: 0 0 30px black;
+}
+
+#infosC{
+    height: 500px;
+    background-color: rgba(34, 34, 34, 0.6);
+    color:white;
+    box-shadow: 0 0 50px rgb(34, 34, 34);
+}
+
+#infosC>caption{
+    color:white;
+    font-weight: bold;
+    text-shadow: 0 0 30px black;
+}
+
+#twi{
+    color:black;
+}
+
+#twi:hover{
+    color:white;
+}
+#fac{
+    color:black;
+}
+#fac:hover{
+    color:white;
+}
+
+#divcontact{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#divclub{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#divnews{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#divfloorball{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}

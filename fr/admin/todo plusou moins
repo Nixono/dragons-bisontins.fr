@@ -1,0 +1,41 @@
+----> Menu navigation partie admin
+
+
+----> Ajout/Suppression de news OK
+
+	AJOUT 			OK
+	SUPPRESSION 	OK
+	AFFICHAGE		OK
+
+----> Ajout/Suppression d'albums
+
+	AJOUT 			OK
+	SUPPRESSION 	
+	AFFICHAGE
+
+----> Ajout/Suppression de photos
+
+	AJOUT
+	SUPPRESSION
+	AFFICHAGE
+
+
+----> Ajout/Suppression d'évènements
+
+	AJOUT 			OK
+	SUPPRESSION 	
+	AFFICHAGE
+
+----> Ajout/Suppression d'horaires
+
+	AJOUT 			OK
+	SUPPRESSION
+	AFFICHAGE
+
+----> Si évènement passé, alors supprimé
+	
+	CRON
+
+----> Gestion du classement simple (on entre score, ça calcule si victoire / défaite + différence but)
+
+	ON VERRA PLUS TARD
